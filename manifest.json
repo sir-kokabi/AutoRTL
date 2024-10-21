@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Auto RTL",
+  "short_name": "AutoRTL",
+  "version": "1.0.0",
+  "description": "Automatically switches to RTL layout when you right-click and select Translate to Persian, Arabic, or other RTL languages.",
+  "author": "Ayub Kokabi",
+  "homepage_url": "https://github.com/sir-kokabi/auto-rtl",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "16.png",
+      "32": "32.png",
+      "48": "48.png",
+      "128": "128.png"
+    }
+  }
+}
