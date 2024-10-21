@@ -3,14 +3,13 @@
   "name": "Auto RTL",
   "short_name": "AutoRTL",
   "version": "1.0.0",
-  "description": "Automatically switches to RTL layout when you right-click and select Translate to Persian, Arabic, or other RTL languages.",
+  "description": "Auto switches to RTL layout whenever you translate page to Persian, Arabic, or other RTL languages using Chrome's built-in translation feature.",
   "author": "Ayub Kokabi",
   "homepage_url": "https://github.com/sir-kokabi/auto-rtl",
   "content_scripts": [
     {
       "matches": ["https://*/*"],
-      "js": ["content-script.js"],
-      "run_at": "document_start"
+      "js": ["content-script.js"]
     }
   ],
 
