@@ -1,6 +1,6 @@
 # AutoRTL
 
-This extension automatically switches the page layout to right-to-left (RTL) whenever you right-click and select Translate to Persian, Arabic, or other RTL languages.
+This extension automatically switches the page layout to right-to-left (RTL) whenever you translate page to Persian, Arabic, or other right-to-left languages using Chrome's built-in translation feature.
 
 Love it? Give it a star here and on the Chrome Web Store — or even making a donation!
 
