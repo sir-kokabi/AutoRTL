@@ -12,6 +12,11 @@ new MutationObserver(() => {
         } else {
             html.setAttribute('dir', previousDir);
         }
+        
+        // Check if 'translated-rtl' was the only class, and remove the 'class' attribute if so
+        if (html.classList.length === 0) {
+            html.removeAttribute('class');
+        }
     }
 }).observe(html, { attributeFilter: ['class'] });
 
