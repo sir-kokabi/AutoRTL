@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Auto RTL",
+  "short_name": "AutoRTL",
+  "version": "1.0.1",
+  "description": "Auto switches to RTL layout whenever you translate page to Persian, Arabic, or other RTL languages.",
+  "author": "Ayub Kokabi",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  }
+}

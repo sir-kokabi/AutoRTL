@@ -1,0 +1,12 @@
+{
+	"type": "module",
+	"scripts": {
+		"build": "gulp build-zip"
+	},
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"gulp": "^5.0.0",
+		"gulp-zip": "^6.0.0"
+	}
+}
