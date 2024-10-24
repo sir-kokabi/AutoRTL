@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"scripts": {
-		"build": "gulp build-zip"
+		"package": "gulp build-zip"
 	},
 	"author": "",
 	"license": "MIT",
